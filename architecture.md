@@ -69,7 +69,7 @@ All the app files should be created within the app's folder, including all the s
 
 ### Libs
 The `libs` folder contains the commonly used libraries for all Y2 Frontend apps. A new library must be generated using the `nx g @nrwl/react:lib my-lib` cli command.
-Avoid adding an app-related hooks to the `libs` folder. hooks should be inside the `/app/lib` folder, unless the hook can be commonly used by all Y2 Frontend apps.
+Avoid adding an app-related hooks to the `libs` folder. hooks should be inside the `/app/lib` folder, unless the hook can be commonly used by all frontend apps.
 
 ## 🔏 Coding standards
 Development must meet the [AirBnB standards](https://github.com/airbnb/javascript).
